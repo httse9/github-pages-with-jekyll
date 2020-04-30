@@ -1,5 +1,5 @@
 # HIHIHIHI
-hohohohoo
+merry christmas
 
 {% for s in site.stu %}
 <h>{{ s.name }}</h>
