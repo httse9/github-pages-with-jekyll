@@ -1,6 +1,5 @@
 # HIHIHIHI
 hohohohoo
-mefibs
 
 {% for s in site.stu %}
 <h>{{ s.name }}</h>
