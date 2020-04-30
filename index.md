@@ -1,3 +1,5 @@
+---
+---
 # Welcome to my blog
 {% for post in site.posts %}
   <p>{{ post.content | markdownify }}</p>
