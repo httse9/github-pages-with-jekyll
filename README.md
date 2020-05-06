@@ -5,11 +5,9 @@ merry christmas!!!
    @asj(asfa)  
 </p>
 <p>&emsp;&emsp;>>hahah</p>
-{::nomarkdown}
 {% for s in site.stu %}
 <h>{{ s.name }}</h>
-<span><p>&emsp;&emsp;</p>{{ s.content }}</span>
-<p>&emsp;&emsp;</p><p>{{ s.content }}</p>
+<span style="white-space:nowrap"><p>&emsp;&emsp;</p>{{ s.content }}</span>
+<div style="white-space:nowrap"><p>&emsp;&emsp;</p>{{ s.content }}</div>
 <p>&emsp;&emsp;{{ s.content }}</p>
 {% endfor %}
-{:/nomarkdown}
