@@ -8,4 +8,8 @@ merry christmas!!!
 {% for s in site.stu %}
 <h>{{ s.name }}</h>
 <span>&emsp;&emsp;</span>{{ s.content }}
+<p>
+   &emsp;&emsp;
+   {{ s.content }}
+</p>
 {% endfor %}
