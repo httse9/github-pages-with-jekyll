@@ -10,6 +10,6 @@ merry christmas!!!
 <span>&emsp;&emsp;</span>{{ s.content }}
 <p>
    &emsp;&emsp;
-   {{ s.content }}
+   {{ s.content | markdownify }}
 </p>
 {% endfor %}
