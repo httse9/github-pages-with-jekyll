@@ -8,6 +8,5 @@ merry christmas!!!
 {% for s in site.stu %}
 <h>{{ s.name }}</h>
 <span style="white-space:nowrap"><p>&emsp;&emsp;</p>{{ s.content }}</span>
-<div style="white-space:nowrap"><p>&emsp;&emsp;</p>{{ s.content }}</div>
-<p>&emsp;&emsp;{{ s.content }}</p>
+<span><p>&emsp;&emsp;</p>{{ s.content }}</span>
 {% endfor %}
