@@ -7,6 +7,6 @@ merry christmas!!!
 <p>&emsp;&emsp;>>hahah</p>
 {% for s in site.stu %}
 <h>{{ s.name }}</h>
-<div style="margin-left:50px">{{ s.content }}</div>
+<div style="margin-left:20px">{{ s.content }}</div>
 {% endfor %}
    
